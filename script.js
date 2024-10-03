@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
     <p><strong>nombre:</strong> ${data.nombre}</p>
     <p><strong>habilidades:</strong> ${data.habilidades}</p>
     <p><strong>aparicion:</strong> ${data.aparicion}</p>
-    <p><strong>:</strong> ${data.img}</p>
-    <h3>:</h3>
+    <p><strong>img:</strong> ${data.img}</p>
+    <h3> hu:</h3>
     <ul>
     <li><a href="${data.links.img}" target="_blank">img</a></li>
     

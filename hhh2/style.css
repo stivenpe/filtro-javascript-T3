@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b48f8f;
+    margin: 0;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Estilo para el resultado del VS */
+.vs-result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+.vs-result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #312525;
+}
+
+.vs-hero-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card {
+    border: 2px solid #ccc; /* Borde más grueso */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que las imágenes se corten dentro del contenedor */
+    margin: 15px; /* Espaciado entre las tarjetas */
+    width: 200px; /* Ancho de la tarjeta */
+    transition: transform 0.2s; /* Animación al pasar el ratón */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumentar el tamaño al pasar el ratón */
+}
+
+.card img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.card h2 {
+    font-size: 18px; /* Tamaño del título */
+}
+
+.card p {
+    font-size: 14px; /* Tamaño del texto */
+}

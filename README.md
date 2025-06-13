@@ -20,7 +20,7 @@ Proyecto realizado como parte del taller T3. Este filtro dinámico permite busca
 - **CSS3** – Estilos personalizados y diseño responsivo
 - **JavaScript** – Lógica de filtrado dinámico
 
----
+--
 
 ## 🎯 Características Principales
 
